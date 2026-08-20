@@ -1,0 +1,24 @@
+body {
+    font-family: Arial;
+    background: #eee;
+    text-align: center;
+}
+
+.profile, .post {
+    background: white;
+    width: 350px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+button {
+    padding: 8px 15px;
+    background: black;
+    color: white;
+    border: 0;
+}
+
+input {
+    padding: 8px;
+}
