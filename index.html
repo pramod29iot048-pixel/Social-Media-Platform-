@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Social Media</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>My Social App</h1>
+
+<div class="profile">
+    <h2>Pramod</h2>
+    <p>CSE Student</p>
+    <button onclick="follow()">Follow</button>
+    <p id="followers">Followers: 10</p>
+</div>
+
+<div class="post">
+    <h3>My First Post</h3>
+    <p>Hello everyone! 👋</p>
+
+    <button onclick="like()">❤️ Like</button>
+    <p id="likes">Likes: 0</p>
+
+    <input id="comment" placeholder="Comment">
+    <button onclick="addComment()">Comment</button>
+
+    <div id="comments"></div>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
